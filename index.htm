@@ -2,19 +2,48 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>我的个人主页</title>
-  <!-- 引入CSS样式 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>董祎诺的个人博客</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="box">
-    <h1>你好，我是董祎诺</h1>
-    <p>这是我用 HTML + CSS + JS 做的第一个网站</p>
-    <button id="btn">点我试试</button>
+<header class="header">
+  <div class="container">
+    <h1>董祎诺的个人博客</h1>
+    <p>土地资源管理 · GIS · 学习记录 · 日常随笔</p>
   </div>
+</header>
 
-  <!-- 引入JS脚本 -->
-  <script src="script.js"></script>
+<div class="container main">
+  <div class="article-list">
+
+    <article class="card">
+      <div class="date">2026-04-11</div>
+      <h2><a href="article.html">我的个人网站终于上线啦！</a></h2>
+      <p class="desc">从零搭建网站、买域名、绑定DNS、部署GitHub Pages，一步步完成属于自己的小站。</p>
+    </article>
+
+    <article class="card">
+      <div class="date">2026-04-10</div>
+      <h2><a href="#">GIS学习笔记：ArcGIS基础操作</a></h2>
+      <p class="desc">记录ArcGIS加载数据、坐标系、裁剪、掩膜等常用操作，方便复习。</p>
+    </article>
+
+    <article class="card">
+      <div class="date">2026-04-09</div>
+      <h2><a href="#">遥感水体提取SDWI指数实验</a></h2>
+      <p class="desc">白洋淀水体提取实验过程，ENVI处理流程与结果分析。</p>
+    </article>
+
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2026 董祎诺 | 个人博客</p>
+  </div>
+</footer>
+
 </body>
 </html>
